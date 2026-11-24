@@ -1,2 +1,0 @@
-# anjal
-Web tech project
