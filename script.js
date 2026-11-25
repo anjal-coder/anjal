@@ -1,12 +1,12 @@
-// Shared JavaScript for AMARI
+
 document.addEventListener("DOMContentLoaded", function () {
-  // Automatically update the copyright year.
+
   const yearElement = document.getElementById("year");
   if (yearElement) {
     yearElement.textContent = new Date().getFullYear();
   }
 
-  // Mobile navigation toggle.
+
   const menuButton = document.querySelector(".menu-toggle");
   const navLinks = document.querySelector(".nav-links");
 
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       menuButton.textContent = isOpen ? "×" : "☰";
     });
 
-    // Close the mobile menu after a navigation link is selected.
+ 
     navLinks.querySelectorAll("a").forEach(function (link) {
       link.addEventListener("click", function () {
         navLinks.classList.remove("open");
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Contact form validation (client-side demonstration only).
+  
   const contactForm = document.getElementById("contactForm");
 
   if (contactForm) {
