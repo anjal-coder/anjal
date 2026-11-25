@@ -34,22 +34,4 @@ No build tools or package installation are required. Google Fonts are loaded fro
 ## Contact form limitation
 The contact form validates input in the browser and displays a demonstration success message. It does **not** send email, save submissions, or connect to a backend. A production form requires a server-side endpoint or a trusted form service.
 
-## Deploy free using GitHub Pages
-1. Create or sign in to a GitHub account.
-2. Create a new public repository, for example `amari-business-website`.
-3. Upload the contents of this project folder. Ensure `index.html` is in the repository root.
-4. Open the repository's **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select branch `main` and folder `/(root)`, then save.
-7. Wait for GitHub Pages to publish the site. The public URL will normally be:
-   `https://YOUR-USERNAME.github.io/amari-business-website/`
-8. Replace `YOUR-USERNAME` with your GitHub username and test all three pages and links.
-9. Include the actual published URL in the final assignment submission.
 
-If you use a different repository name, the URL path changes accordingly. GitHub Pages is static hosting; this project does not require a server-side application.
-
-## Customization before submission
-- Replace the fictional company details with your own approved project details if desired.
-- Add your name, roll number, college and submission date to the report.
-- Test the website at desktop and mobile widths.
-- Add the final deployed URL to the report and submission sheet.
