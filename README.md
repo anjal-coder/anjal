@@ -17,8 +17,6 @@ amari-business-website/
 │   └── style.css
 ├── js/
 │   └── script.js
-├── report/
-│   └── AMARI_Project_Report.docx
 └── README.md
 ```
 
